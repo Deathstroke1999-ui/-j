@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+      
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+p{
+    font-family: 'Montserrat', sans-serif;
+  }
+  h1,h2{
+    font-family: 'Montserrat', sans-serif;
+  }
+#banner{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+
+ /* top, transparent red */
+ background-image: 
+ /* top, transparent red */
+ linear-gradient(
+   rgba(0, 0, 0, 0.719), 
+   rgba(0, 0, 0, 0.719)
+ ),
+ /* your image */
+ url(banner.jpg);
+ 
+}
+.banner-p{
+    color: #fff;
+    font-size: 4rem;
+    text-align: center;
+    font-weight: 900;
+    padding: 20px;
+    
+}
